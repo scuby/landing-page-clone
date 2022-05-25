@@ -151,12 +151,53 @@ button {
     text-align: right;
 }
 
-.call-to-action {
-    flex: 4;
+.c2a {
+    display: flex;
+    flex: 0 0 auto;
+    background-color: #3882f6;
+    margin: 90px auto;
+    border: none;
+    border-radius: 8px;
+    width: 1000px;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+}
+
+.c2a-left {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    color: #f9faf8;
+    padding: 20px 20px 20px 110px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.c2a-title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.c2a-subtext {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+.c2a > button {
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: auto;
 }
 
 .footer {
-    background-color: #1f2937;
+    display: flex;
     flex: 1;
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
 }
 
