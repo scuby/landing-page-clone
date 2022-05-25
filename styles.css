@@ -133,7 +133,22 @@ button {
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
-    flex: 5;
+    padding: 100px 200px;
+    width: auto;
+    height: auto;
+    min-height: 200px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-name {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
 }
 
 .call-to-action {
