@@ -32,8 +32,57 @@ body {
 }
 
 .hero {
+    display: flex;
     background-color: #1f2937;
-    flex: 5;
+    width: auto;
+    padding: 90px 140px;
+    gap: 50px;
+}
+
+.hero-left {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    min-width: 460px;
+    min-height: 250px;
+    gap: 7px;
+}
+
+.hero-title {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero-content {
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+    height: auto;
+    margin: -6px 0;
+}
+
+.hero-right {
+    display: flex;
+    flex: 0 0 auto;
+    height: 240px;
+    width: 500px;
+    background-color: #696a6c;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5pt;
+    padding: 10px 35px;
+    margin: 12px 0;
 }
 
 .random-info {
