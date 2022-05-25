@@ -11,7 +11,6 @@ body {
     font-weight: bold;
     color: #f9faf8;
     font-size: 24px;
-    flex: 0 0 auto;
 }
 
 .header {
@@ -19,7 +18,7 @@ body {
     background-color: #1f2937;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 140px;
+    padding: 20px 90px 20px 140px;
     flex: 1;
 }
 
@@ -81,12 +80,54 @@ button {
     font-weight: bolder;
     border: none;
     border-radius: 5pt;
-    padding: 10px 35px;
+    padding: 8px 32px;
     margin: 12px 0;
 }
 
 .random-info {
-    flex: 6;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.random-info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 48px 0;
+}
+
+.random-info-content {
+    display: flex;
+    gap: 1.2em;
+    margin-bottom: 48px;
+}
+
+.random-info-pair {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+}
+
+.random-info-box {
+    height: 160px;
+    width: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin: 0 16px;
+}
+
+.random-info-subtext {
+    width: 160px;
+    height: auto;
+    text-align: center;
+    color: #696a6c;
+    font-weight: 444;
+    line-height: 125%;
 }
 
 .quote {
